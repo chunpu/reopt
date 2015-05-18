@@ -1,0 +1,28 @@
+{
+  "name": "reopt",
+  "version": "1.0.0",
+  "description": "get options from arguments with multiple overloads",
+  "main": "index.js",
+  "dependencies": {
+    "min-util": "^1.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test.js",
+    "readme": "pretty-readme > readme.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chunpu/reopt.git"
+  },
+  "keywords": [
+    "option",
+    "reopt"
+  ],
+  "author": "chunpu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chunpu/reopt/issues"
+  },
+  "homepage": "https://github.com/chunpu/reopt"
+}
