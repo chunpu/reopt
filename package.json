@@ -1,14 +1,17 @@
 {
   "name": "reopt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get options from arguments with multiple overloads",
   "main": "index.js",
   "dependencies": {
     "min-util": "^1.3.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
   "scripts": {
     "test": "mocha test.js",
+	"cover": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test",
     "readme": "pretty-readme > readme.md"
   },
   "repository": {
