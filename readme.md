@@ -1,6 +1,7 @@
 reopt
 ===
 
+[![Build status][travis-image]][travis-url]
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][downloads-url]
 [![Dependency Status][david-image]][david-url]
@@ -11,6 +12,7 @@ reopt
 [david-image]: http://img.shields.io/david/chunpu/reopt.svg?style=flat-square
 [david-url]: https://david-dm.org/chunpu/reopt
 
+[![Test coverage][coveralls-image]][coveralls-url]
 
 get options from arguments with multiple overloads
 
@@ -73,5 +75,9 @@ License
 
 [![License][license-image]][license-url]
 
+[travis-image]: https://img.shields.io/travis/chunpu/reopt.svg?style=flat-square
+[travis-url]: https://travis-ci.org/chunpu/reopt
+[coveralls-image]: https://img.shields.io/coveralls/chunpu/reopt/gh-pages.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/chunpu/reopt
 [license-image]: http://img.shields.io/npm/l/reopt.svg?style=flat-square
 [license-url]: #
