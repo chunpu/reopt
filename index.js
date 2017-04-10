@@ -44,7 +44,7 @@ Reopt.types = {
 		return is.element(val)
 	},
 	'array': function(val) {
-		return is.arr(val)
+		return is.array(val)
 	}
 }
 
@@ -78,6 +78,6 @@ function getOverloads(overloads) {
 function makeArray(arr, sep) {
 	if (is.array(arr)) return arr
 	sep = sep || ' '
-	if (is.str(arr)) return arr.split(sep)
+	if (is.string(arr)) return arr.split(sep)
 	return []
 }
